@@ -1,6 +1,6 @@
 {
   "name": "vue-preset-mobile",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "vue preset for mobile projects",
   "main": "prompts.js",
   "scripts": {
@@ -16,6 +16,5 @@
     "git-cz": "^4.3.1",
     "standard-version": "^7.1.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
