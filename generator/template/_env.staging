@@ -1,0 +1,4 @@
+NODE_ENV=staging
+VUE_APP_TITLE=Vue (staging)
+VUE_APP_API_URL=https://your.staging.server
+VUE_APP_DEBUG=enable
