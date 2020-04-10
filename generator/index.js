@@ -8,7 +8,8 @@ module.exports = (api, options, rootOptions) => {
       'js-cookie': '^2.2.0'
     },
     devDependencies: {
-      'git-cz': '^2.0.0',
+      "git-cz": "^4.3.1",
+      "standard-version": "^7.1.0",
       'compression-webpack-plugin': '^2.0.0',
       'vconsole-webpack-plugin': '^1.4.2',
       'postcss-px-to-viewport': '^1.1.0'
@@ -18,7 +19,8 @@ module.exports = (api, options, rootOptions) => {
       'build:testing': 'vue-cli-service build --mode testing',
       'build:staging': 'vue-cli-service build --mode staging',
       'build:production': 'vue-cli-service build',
-      'commit': 'git add . && npx git-cz'
+      "changelog": "standard-version",
+      "commit": "git add . && npx git-cz"
     },
     config: {
       commitizen: {
